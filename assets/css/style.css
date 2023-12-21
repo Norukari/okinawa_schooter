@@ -217,7 +217,7 @@ body {
 .h3 { font-size: var(--fs-3); }
 
 .section-title,
-.section-text { text-align: center; }
+.section-text { text-align: left; }
 
 
 
