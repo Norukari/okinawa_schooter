@@ -328,7 +328,7 @@ body {
 .hero-banner img { border-radius: inherit; }
 
 .hero-content {
-  text-align: center;
+  text-align: left;
   color: var(--white);
   text-shadow: 1px 2px 3px #808080; 
 }
