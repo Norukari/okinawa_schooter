@@ -794,7 +794,7 @@ text-align: left;
 }
 
 .blog-card .card-title {
-  color: var(--white);
+  color: var(--space-cadet);
   font-weight: var(--fw-600);
   line-height: 1.3;
 }
