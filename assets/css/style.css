@@ -201,7 +201,7 @@ body {
   color: var(--orange-soda);
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
-  text-align: center;
+  text-align: left;
 }
 
 .h2,
@@ -398,7 +398,7 @@ opacity:0;
 
 .portfolio .section-title { 
   margin-block-end: 18px;
-  text-align: center;
+  text-align: left;
  }
 
 .portfolio .section-text { 
@@ -461,7 +461,7 @@ text-align: left;
 
 .skills .section-title { 
 margin-block-end: 20px;
-text-align: center;
+text-align: left;
 }
 
 
@@ -525,11 +525,11 @@ text-align: left;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
-  text-align: center;
+  text-align: left;
 }
 
 .contact .section-title {
-  text-align: center;
+  text-align: left;
   margin-block-end: 30px;
   
 }
@@ -608,7 +608,7 @@ textarea.contact-input {
 
 .blog .section-title {
  margin-block-end: 20px;
- text-align: center;
+ text-align: left;
  }
 
 .blog .section-text { 
