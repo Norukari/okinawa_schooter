@@ -508,6 +508,10 @@ text-align: left;
   #CONTACT
 \*-----------------------------------*/
 
+.section#contact {
+    background: white;
+}
+
 .contact-card {
   background-color: var(--midnight-blue);
   padding: 50px 25px;
@@ -1042,8 +1046,6 @@ text-align: left;
   .contact-card { padding: 100px; }
 
   .contact .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 80px;
   }
 
