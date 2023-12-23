@@ -429,11 +429,13 @@ text-align: left;
 .portfolio-card .card-subtitle {
   color: var(--orange-soda);
   margin-block-end: 5px;
+  text-align: center;
 }
 
 .portfolio-card .card-title {
   max-width: 20ch;
   margin-block-end: 20px;
+
 }
 
 .portfolio-card .btn-link {
@@ -526,8 +528,9 @@ text-align: left;
 }
 
 .contact .section-title {
-  text-align: left;
+  text-align: center;
   margin-block-end: 30px;
+  
 }
 
 .contact-form { margin-block-end: 50px; }
