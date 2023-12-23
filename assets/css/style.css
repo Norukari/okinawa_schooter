@@ -217,7 +217,9 @@ body {
 .h3 { font-size: var(--fs-3); }
 
 .section-title,
-.section-text {}
+.section-text {
+color:white;
+}
 
 
 
@@ -387,7 +389,9 @@ img.hero-image {
 
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
-.about :is(.section-title, .section-text) { margin-block-end: 30px; }
+.about :is(.section-title, .section-text) { 
+margin-block-end: 30px; 
+}
 
 
 
