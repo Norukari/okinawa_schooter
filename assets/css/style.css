@@ -357,8 +357,15 @@ body {
   gap: 10px;
 }
 
-
-
+.img-flex-2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+img.hero-image {
+    width: 45%;
+}
 
 
 /*-----------------------------------*\
