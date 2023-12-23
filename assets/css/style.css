@@ -1136,7 +1136,7 @@ text-align: left;
    * ABOUT
    */
 
-  .about { padding-block: 180px; }
+  .about { padding-block: var(--section-padding); }
 
   .about .container {
     display: grid;
