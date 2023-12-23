@@ -389,6 +389,12 @@ body {
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+.fadeDown{
+animation-name:fadeDownAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+}
 
 .portfolio .section-title { 
   margin-block-end: 18px;
