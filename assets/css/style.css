@@ -403,6 +403,7 @@ opacity:0;
 .portfolio .section-title { 
   margin-block-end: 18px;
   text-align: left;
+  color: var(--space-cadet)
  }
 
 .portfolio .section-text { 
