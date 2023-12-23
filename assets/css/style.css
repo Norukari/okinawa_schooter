@@ -816,7 +816,12 @@ text-align: left;
 .blog-card .card-title a:is(:hover, :focus) { color: var(--orange-soda); }
 
 
-
+/*-----------------------------------*\
+  #PORT
+\*-----------------------------------*/
+.section#port {
+    background: white;
+}
 
 
 /*-----------------------------------*\
