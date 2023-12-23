@@ -389,6 +389,10 @@ body {
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+.section#portfolio {
+    background: white;
+}
+
 .fadeDown{
 animation-name:fadeDownAnime;
 animation-duration:0.5s;
@@ -435,6 +439,7 @@ text-align: left;
 .portfolio-card .card-title {
   max-width: 20ch;
   margin-block-end: 20px;
+  color:#363636;
 
 }
 
