@@ -525,6 +525,7 @@ text-align: left;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
+  text-align: center;
 }
 
 .contact .section-title {
