@@ -830,6 +830,7 @@ text-align: left;
 .section#port {
     background: white;
 }
+@media (min-width: 992px)
 .container#port {
     display: grid;
     grid-template-columns: 1fr 1fr;
