@@ -690,7 +690,7 @@ textarea.contact-input {
   width: 48px;
   display: inline-block;
   text-align: center;
-  background: #5bc8ac;
+  background: var(--orange-soda);
   color: #fff;
   font-size: 14px;
 }
@@ -757,7 +757,7 @@ textarea.contact-input {
   width: 280px;
   display: block;
   letter-spacing: 0.05em;
-  background: #5bc8ac;
+  background: var(--orange-soda);
   color: #fff;
   font-weight: bold;
   font-size: 20px;
