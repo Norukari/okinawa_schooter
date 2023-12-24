@@ -772,6 +772,20 @@ textarea.contact-input {
   }
 }
 
+.form-radius {
+    max-width: 480px;
+    margin-left: 40px;
+    height: 5em;
+    width: 100%;
+}
+.label-radius {
+    display: flex !important;
+    padding-bottom: 0.5em;
+}
+input[type="radio"] {
+    width: 10%;
+}
+
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
