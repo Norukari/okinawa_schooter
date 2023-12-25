@@ -507,7 +507,6 @@ text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block-end: 10px;
 }
 
 .skills-title,
@@ -532,7 +531,7 @@ text-align: left;
 .section-text-price {
     margin-block-end: 10px;
     text-align: left;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 
@@ -984,8 +983,7 @@ text-align: left;
 
   .skills-list,
   .blog-list {
-    grid-template-columns: 2fr 1fr 3fr 2fr;
-    column-gap: 50px;
+    grid-template-columns: 2fr 1fr 2fr 5fr;
   }
 
 }
@@ -1241,7 +1239,7 @@ text-align: left;
    * SKILLS
    */
 
-  .skills-list { column-gap: 100px; }
+  .skills-list {}
 
 
 
