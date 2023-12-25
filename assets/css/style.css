@@ -531,7 +531,7 @@ text-align: left;
 .section-text-price {
     margin-block-end: 10px;
     text-align: left;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 
@@ -987,7 +987,9 @@ text-align: left;
   }
 
 }
-
+.plus section-text-price{
+text-align: center
+}
 
 
 
