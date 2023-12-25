@@ -530,6 +530,11 @@ text-align: left;
   height: 100%;
   border-radius: inherit;
 }
+.section-text-price {
+    margin-block-end: 10px;
+    text-align: left;
+    font-size: 5em;
+}
 
 
 
@@ -980,7 +985,7 @@ text-align: left;
 
   .skills-list,
   .blog-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr 2fr;
     column-gap: 50px;
   }
 
