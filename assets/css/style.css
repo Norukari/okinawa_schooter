@@ -501,7 +501,6 @@ text-align: left;
 
 .skills-list {
   display: grid;
-  gap: 25px;
 }
 
 .skills-item .wrapper {
@@ -985,7 +984,7 @@ text-align: left;
 
   .skills-list,
   .blog-list {
-    grid-template-columns: 2fr 1fr 2fr 2fr;
+    grid-template-columns: 2fr 1fr 3fr 2fr;
     column-gap: 50px;
   }
 
