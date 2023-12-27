@@ -1290,3 +1290,33 @@ text-align: center
   .footer-list { margin-inline: 0; }
 
 }
+/* Add this to your existing CSS or create a new CSS file */
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.navbar-multiple-links {
+  display: inline-block; /* Display the list item as an inline block to make the links horizontal */
+}
+
+.navbar-multiple-links ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-multiple-links li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add margin between each link if needed */
+  border-right: 1px solid #ddd; /* Add a vertical bar as a separator with a lighter color */
+  padding-right: 10px; /* Add padding to the right of each link for spacing */
+}
+
+.navbar-multiple-links li:last-child {
+  border-right: none; /* Remove the vertical bar for the last list item */
+}
+
+.navbar-multiple-links a {
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Set font weight if desired */
+}
+
