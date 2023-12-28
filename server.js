@@ -6,8 +6,8 @@ var bodyParser = require("body-parser");
 var fs = require("fs");
 
 i18next.use(FsBackend).init({
-  lng: "en",
-  preload: ["de", "en"],
+  lng: "ja",
+  preload: ["cn", "kr","ja"],
   saveMissing: true,
   debug: true,
   backend: {
