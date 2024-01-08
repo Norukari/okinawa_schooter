@@ -184,7 +184,7 @@ body {
   font-weight: var(--fw-600);
   max-width: max-content;
   padding: var(--padding, 10px 40px);
-  border-radius: 50px;
+  border-radius: 8px;
   transition: var(--transition-2);
 }
 
@@ -201,6 +201,35 @@ font-size: 16px;
   object-fit: cover;
 }
 
+.img-cover-about {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation: change-img-anim 24s infinite;
+}
+
+/*変更点*/
+.img-cover-about:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.img-cover-about:nth-of-type(2) {
+  animation-delay: 8s;
+}
+.img-cover-about:nth-of-type(3) {
+  animation-delay: 16s;
+}
+
+/*変更点*/
+@keyframes change-img-anim {
+  0%{ opacity: 0;}
+  10%{ opacity: 1;}
+  90%{ opacity: 1;}
+  100%{ opacity: 0;}
+}
+
 .section { padding-block: var(--section-padding); }
 
 .section-subtitle {
@@ -210,7 +239,7 @@ font-size: 16px;
   text-align: left;
 }
 
-##確認事項
+#確認事項
 h2.h2.section-title {
     animation: fadein-top 3s ease-out forwards;
 }
@@ -268,6 +297,9 @@ color:white;
   font-family: var(--ff-poppins);
   font-size: 2.4rem;
 }
+.active .logo {
+  color: #2B68A7;
+}
 
 .nav-toggle-btn { font-size: 3rem; }
 
@@ -298,6 +330,10 @@ color:white;
   font-family: var(--ff-barlow);
   padding-block: 3px;
   transition: var(--transition-1);
+  font-weight: 900; 
+}
+.active .navbar-link {
+  color: #2B68A7;
 }
 
 .navbar-link:is(:hover, :focus) { color: var(--orange-soda); }
@@ -319,7 +355,7 @@ color:white;
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/okinawa.png");
+  background-image: url("../images/okinawa-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -327,6 +363,7 @@ color:white;
   min-height: 100vh;
   display: grid;
   place-items: center;
+  border-radius: 0% 15%;
 }
 
 .hero-banner {
@@ -396,7 +433,18 @@ img.hero-image {
   margin-block-end: 30px;
 }
 
+.about-banner-about {
+  background-color: var(--independence);
+  border-radius: var(--radius-10);
+  margin-block-end: 30px;
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+  height: 400px;
+}
+
 .about-banner > .img-cover { border-radius: inherit; }
+.about-banner-about> .img-cover-about { border-radius: inherit; }
 
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
@@ -543,7 +591,7 @@ text-align: left;
 \*-----------------------------------*/
 
 .section#contact {
-    background: white;
+    background:#f7f7f7;
 }
 
 .contact-card {
@@ -817,6 +865,7 @@ text-align: left;
   border-radius: var(--radius-15);
   overflow: hidden;
   margin-block-end: 20px;
+  box-shadow: -5px -5px 5px 3px rgba(0, 163, 224, 0.5), 5px 5px 5px 3px rgba(0, 163, 224, 0.5);
 }
 
 .blog-card .card-banner img { transition: var(--transition-2); }
@@ -904,7 +953,7 @@ text-align: left;
 \*-----------------------------------*/
 
 .back-to-top {
-  color: var(--white);
+  color: #00a3e0;
   font-size: 1.3rem;
   position: fixed;
   bottom: 160px;
@@ -929,7 +978,7 @@ text-align: left;
   left: calc(100% + 7px);
   width: 100px;
   height: 1px;
-  background-color: var(--white);
+  background-color: #00a3e0;
 }
 
 
@@ -1050,7 +1099,7 @@ text-align: center
   }
 
   .header.active {
-    background-color: var(--space-cadet);
+    background-color: white;
     box-shadow: var(--shadow);
     padding-block: 20px;
   }
@@ -1076,7 +1125,7 @@ text-align: center
 
   .hero .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
   }
 
@@ -1186,6 +1235,11 @@ text-align: center
     margin-block-end: 0;
   }
 
+  .about-banner-aboutß {
+    position: relative;
+    margin-block-end: 0;
+  }
+
   .abs-img,
   .abs-icon {
     display: block;
@@ -1240,10 +1294,6 @@ text-align: center
   /**
    * SKILLS
    */
-
-  .skills-list {}
-
-
 
   /**
    * CONTACT
