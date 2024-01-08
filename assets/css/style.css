@@ -411,10 +411,10 @@ color:white;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 img.hero-image {
-    width: 50%;
+    width: 40%;
 }
 
 
