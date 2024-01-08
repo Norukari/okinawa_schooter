@@ -363,7 +363,7 @@ color:white;
   min-height: 100vh;
   display: grid;
   place-items: center;
-  border-radius: 0% 15%;
+  border-radius: 0% 0% 0% 15%;
 }
 
 .hero-banner {
