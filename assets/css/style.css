@@ -126,6 +126,13 @@ ion-icon { display: block; }
 
 img { height: auto; }
 
+img.insta_img {
+  height: 30px;
+}
+img.twitter_img {
+  height: 30px;
+}
+
 ion-icon {
   pointer-events: none;
   color: #00a3e0;
@@ -261,11 +268,11 @@ border: 1px solid #00a3e0;
 
 .section {
    padding-block: var(--section-padding); 
-   background: #a4d8eb;
+   background: #00a3e021;
   }
 
 .section-subtitle {
-  color: var(--orange-soda);
+  color: #00a3e0;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   text-align: left;
@@ -325,14 +332,14 @@ color:#313636;
   z-index: 4;
 }
 
-@media (max-width:750px) {
+@media (max-width:822px) {
   .header.active{
     background-color:#ffffff;
     font-weight: 600;
   }
 }
 
-@media (max-width:750px) {
+@media (max-width:822px) {
   .navbar-link{
     color:#313636;
     font-weight: 600;
@@ -347,7 +354,7 @@ color:#313636;
 .header > .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .logo {
@@ -356,7 +363,7 @@ color:#313636;
   font-size: 2.4rem;
 }
 .active .logo {
-  color: #00a3e0;
+  color: #1A1A1A;
 }
 
 .nav-toggle-btn { 
@@ -399,6 +406,7 @@ color:#313636;
 
 .navbar-link:is(:hover, :focus) { 
   color: #00a3e0;
+  border-bottom: 3px solid #00a3e0;
  }
 
 .navbar .btn {
@@ -674,7 +682,7 @@ text-align: left;
 }
 
 .contact-card .card-subtitle {
-  color: var(--orange-soda);
+  color: #00a3e0;
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
@@ -961,7 +969,7 @@ text-align: left;
 }
 
 .blog-card .card-tag {
-  color: var(--orange-soda);
+  color: #00a3e0;
   margin-block-end: 5px;
 }
 
@@ -996,7 +1004,7 @@ text-align: left;
 \*-----------------------------------*/
 
 .footer {
-  background-color: #313636;
+  background-color: #067199;
   padding-block: 60px;
 }
 
