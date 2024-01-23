@@ -14,8 +14,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
+  <link rel="shortcut icon" href="./Norukari-logo.svg" type="image/svg+xml">
   <!-- 
     - custom css link
   -->
@@ -41,7 +40,7 @@
     <div class="container">
 
       <a href="#">
-        <h1 class="logo">乗るカリ</h1>
+        <h1 class="logo">NORUKARI</h1>
       </a>
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
@@ -51,7 +50,6 @@
 
       <nav class="navbar container">
         <ul class="navbar-list">
-          <!--
           <li>
             <a href="#about" class="navbar-link" data-nav-link>乗るカリとは？</a>
           </li>
@@ -71,10 +69,20 @@
           <li>
             <a href="https://www.abc-rentacar.co.jp/" class="navbar-link" data-nav-link>運営会社</a>
           </li>
-          -->
+
           <li>
-            <a href="#contact" class="btn btn-primary">ポート導入のお問い合わせ</a>
+            <a href="#contact" class="btn btn-primary">お問い合わせ</a>
           </li>
+          <li class="insta">
+             <a href="#" target="_blank">
+            <img src="https://rimo-japan.com/wp-content/themes/rimo/common/img/insta.png" alt="Instagram" class="insta_img">
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="#" target="_blank">
+           <img src="./assets/images/logo-x.png" alt="Twitter" class="twitter_img">
+           </a>
+         </li>
 
         </ul>
       </nav>
@@ -96,13 +104,11 @@
       <section class="hero" id="home">
         <div class="container">
 
-          <div></div>
-
           <div class="hero-content">
 
             <h2 class="hero-title">
               <span>都市を走り抜ける</span>
-              <strong>スマートな<br>キックボード</strong>
+              <strong>スマートなキックボード</strong>
             </h2>
 
             <p class="hero-text">
@@ -110,10 +116,10 @@
             </p>
             
             <div class="img-flex-2">
-	            <img src="./assets/images/{{a.png}}" alt="Google store" alt="" class="hero-image" https:="#">
-	            <img src="./assets/images/{{b.png}}" alt="Apple store" alt="" class="hero-image" https:="#">
+	            <img src="./assets/images/{{google-store.png}}" alt="Google store" alt="" class="hero-image" https:="#">
+	            <img src="./assets/images/{{apple-store.png}}" alt="Apple store" alt="" class="hero-image" https:="#">
             </div>
-              
+            <div></div>
           </div>
 
         </div>
@@ -130,19 +136,23 @@
       <section class="section about" id="about">
         <div class="container">
 
-          <figure class="about-banner">
+          <figure class="about-banner-about">
 
-            <img src="./assets/images/Norukari.png" width="800" height="652" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
+            <img src="./assets/images/shisa2.png"  loading="lazy" alt="Ethan's Photo"
+              class="img-cover-about">
+            <img src="./assets/images/taketomi_city2.png"  loading="lazy" alt="Ethan's Photo"
+              class="img-cover-about">
+            <img src="./assets/images/taketomi_road2.png" loading="lazy" alt="Ethan's Photo"
+              class="img-cover-about">
           </figure>
 
           <div class="about-content">
 
             <p class="section-subtitle">Why Norukari?</p> 
 
-            <h2 class="h2 section-title">乗るカリのビジョン</h2>
+            <h2 class="h2 section-title-about">乗るカリのビジョン</h2>
 
-            <p class="section-text">
+            <p class="section-text-about">
               乗るカリは、沖縄の美しい海と歴史的な場所をもっと身近に感じ、観光客だけでなく地元の方々にも利用される新しいモビリティの選択肢として誕生しました。街じゅうに広がるポートからポートへ、スマホ一つで手軽に移動できることで、沖縄の魅力をより自由に、より身近に楽しむことができます。
             </p>
 
@@ -158,6 +168,9 @@
       <!-- 
         - #PORTFOLIO
       -->
+      <div class="intro-img sa fadeIn visible">
+        <img src="./assets/images/okinawa_image.png" alt="" class="okinawa_image">
+      </div>
 
       <section class="section portfolio" id="portfolio">
         <div class="container">
@@ -170,14 +183,14 @@
             乗るカリのポートは沖縄の人気スポットに数々広がっています。国際通りを中心に、空港前や繁華街、コンビニ、ホテルなど、スマホ一つで好きなタイミングで借りて、好きな場所に返すことができます。
           </p>
 
-          <ul class="blog-list">
+          <ul class="blog-list how-to">
 
             <li>
               <div class="blog-card">
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                    <img src="./assets/images/search.png" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
@@ -198,7 +211,7 @@
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                    <img src="./assets/images/scan.png" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
@@ -219,11 +232,32 @@
 
                 <figure class="card-banner">
                   <a href="#">
-                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                    <img src="./assets/images/ride.png" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
                   </a>
                 </figure>
 
                 <a href="#" class="card-tag">STEP3</a>
+
+                <h3 class="card-title">
+                  <a href="#">ライドする</a>
+                </h3>
+		<p class="section-text">
+            	ライド後は、お近くのポートに返却し写真を撮影し、返却が完了となります。
+          	</p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/return.png" width="1181" height="843" loading="lazy" alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">STEP4</a>
 
                 <h3 class="card-title">
                   <a href="#">ポートに返却する</a>
@@ -322,7 +356,7 @@
               那覇市を中心に、ポートの設置を募集しております。設置費用・維持コストは一切かからず、お店やビル、マンションなどの一部スペースに置くだけでスタートすることができます。ちょっとした移動が楽になったり、デッドスペースの収益化、お店の集客に大きくにつながります。<br>詳しくは下のボタンから詳細をご確認ください。
             </p>
 
-          <a href="#port" class="btn btn-primary blue">ポート設置を検討している方</a>
+          <a href="#port" class="btn btn-primary blue">ポート設置を検討の方</a>
 	  </div>
 
         </div>
@@ -332,13 +366,13 @@
 
      <!-- 
 	#Download
--->
+--> <!-- -->
 <section class="section about" id="download">
-        <div class="container">
+        <div class="container downroad
 
           <figure class="about-banner">
 
-            <img src="./assets/images/Norukari.png" width="800" height="652" loading="lazy" alt="Ethan's Photo" class="img-cover">
+            <img src="./assets/images/smartphone.png" width="800" height="652" loading="lazy" alt="Ethan's Photo" class="img-cover">
           </figure>
 
           <div class="about-content">
@@ -351,8 +385,8 @@
               iOS、Androidの両方からダウンロードができます。<br>煩わしい手続きは一切不要で、簡単な身分証明書の確認と決済情報の登録の完了さえすれば、すぐにご利用いただけます。
             </p>
 	    <div class="img-flex-2">
-		    <img src="./assets/images/{{a.png}}" alt="Google store" alt="" class="hero-image" https:="#">
-	            <img src="./assets/images/{{b.png}}" alt="Apple store" alt="" class="hero-image" https:="#">
+		    <img src="./assets/images/{{google-store.png}}" alt="Google store" alt="" class="hero-image" https:="#">
+	            <img src="./assets/images/{{apple-store.png}}" alt="Apple store" alt="" class="hero-image" https:="#">
             </div>
           </div>
         </div>
@@ -370,12 +404,23 @@
             <p class="card-subtitle">Contact</p>
 
             <h2 class="h2 section-title">お問い合わせ</h2>
-            <p class="section-text">下記フォームよりお気軽にご連絡ください<br>※ 3営業日以内にご連絡がない場合は、お手数おかけしますが、再度ご連絡ください。</p>
+            <p class="section-text contact">下記フォームよりお気軽にご連絡ください<br>※ 3営業日以内にご連絡がない場合は、お手数おかけしますが、再度ご連絡ください。</p>
             
   <!-- 
 #お問い合わせフォーム
 -->
   <div class="Form">
+   <div class="Form-Item">
+    <p class="Form-Item-Label">
+      <span class="Form-Item-Label-Required">必須</span>お問い合わせ内容
+    </p>
+<div class="form-radius">
+　<label class="label-radius"><input type="radio" value="1" name="overview">キックボードについて</label>
+  <label class="label-radius"><input type="radio" value="2" name="overview">アプリについて</label>
+  <label class="label-radius"><input type="radio" value="3" name="overview">ポートの設置について</label>
+  <label class="label-radius"><input type="radio" value="4" name="overview">その他</label>
+</div>
+  </div>
   <div class="Form-Item">
     <p class="Form-Item-Label">
       <span class="Form-Item-Label-Required">必須</span>会社名
@@ -426,10 +471,10 @@
       <ul class="footer-list">
         <li class="navbar-multiple-links">
           <ul>
-            <li><a href="?lng=ja">日本語</a></li>
-            <li><a href="?lng=en">English</a></li>
-            <li><a href="?lng=cn">中文</a></li>
-            <li><a href="?lng=kr">한국인</a></li>
+            <li><a href="?lng=ja" class="language">日本語</a></li>
+            <li><a href="?lng=en" class="language">English</a></li>
+            <li><a href="?lng=cn" class="language">中文</a></li>
+            <li><a href="?lng=kr" class="language">한국인</a></li>
           </ul>
         </li>
         <li>
