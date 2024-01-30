@@ -122,7 +122,10 @@ input,
 strong,
 button,
 textarea,
-ion-icon { display: block; }
+ion-icon { 
+  display: block; 
+  text-align:center;
+}
 
 img { height: auto; }
 
@@ -194,7 +197,6 @@ body {
 .btn {
   color: #00a3e0;
   font-family: var(--ff-barlow);
-  font-size: 0.8em;
   font-weight: var(--fw-600);
   max-width: max-content;
   padding: var(--padding, 10px 40px);
@@ -203,6 +205,7 @@ body {
 }
 .btn-primary {
   color: #ffffff;
+  background-color:#00a3e0;
 }
 
 .btn-primary.blue { 
@@ -420,16 +423,16 @@ color:#313636;
 
 .navbar .btn {
   margin-block-start: 15px;
-  border: 1px solid #f7f7f7;
 }
 
-.active .btn-primary {
+/*.active .btn-primary {
   color: #313636;
   border: 1px solid #313636;
-}
+}*/
 
-.active .btn-primary:hover {
+.btn-primary:hover {
   color: #00a3e0;
+  background-color:#ffffff;
   border: 1px solid #00a3e0;
 }
 
@@ -974,6 +977,40 @@ input[type="radio"] {
 }
 
 /*-----------------------------------*\
+  #Advantage
+\*-----------------------------------*/
+h2.h2.section-title.adbvantage-title {
+  text-align: left;
+}
+
+.advantage-text {
+  padding: 0 1em 1em;
+}
+
+.img-advantage{
+  border-radius:0;
+}
+
+.subtitle-advantage {
+  text-shadow: 5px 5px 3px rgba(0,0,0,0.2);
+}
+
+/*-----------------------------------*\
+  #Example
+\*-----------------------------------*/
+.example-image{
+  height:150px;
+  width:150px;
+  border-radius:50%;
+
+}
+.exapmle-img {
+  text-align: -webkit-center;
+}
+
+
+
+/*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
 
@@ -994,14 +1031,15 @@ text-align: left;
   gap: 40px;
 }
 
-.blog-card { font-family: var(--ff-barlow); }
+.blog-card { 
+  font-family: var(--ff-barlow); 
+  background-color:#ECF6FA;
+  height:420px;
+}
 
 .blog-card .card-banner {
-  background-color: var(--independence);
-  border-radius: var(--radius-15);
   overflow: hidden;
   margin-block-end: 20px;
-  box-shadow: -5px -5px 5px 3px rgba(0, 163, 224, 0.5), 5px 5px 5px 3px rgba(0, 163, 224, 0.5);
 }
 
 .blog-card .card-banner img { transition: var(--transition-2); }
@@ -1030,6 +1068,10 @@ text-align: left;
   }
 
 .blog-card .card-title a:is(:hover, :focus) { color: #00a3e0; }
+
+.card-title {
+  margin-top: 0.5em;
+}
 
 
 /*-----------------------------------*\
@@ -1180,9 +1222,13 @@ p.copyright {
    * SKILLS, BLOG
    */
 
+   li.skills-item {
+    padding: 0 0.5em;
+}
+
   .skills-list,
   .blog-list {
-    grid-template-columns: 2fr 1fr 2fr 5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .blog-list, .how-to{
@@ -1268,7 +1314,6 @@ text-align: center
 
   .navbar .btn {
     margin-block-start: 0;
-    --padding: 5px 20px;
   }
 
 
@@ -1389,6 +1434,7 @@ text-align: center
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 80px;
+    margin:2em 0;
   }
 
   .about-banner {
@@ -1489,7 +1535,8 @@ text-align: center
 
   .blog-list {
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 3em;
+    /*margin:0 3em;*/
   }
 
   
