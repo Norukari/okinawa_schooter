@@ -129,6 +129,9 @@ ion-icon {
 
 img { height: auto; }
 
+img.logo_img {
+  height: 30px;
+}
 img.insta_img {
   height: 30px;
 }
@@ -370,12 +373,13 @@ color:#313636;
 }
 
 .logo {
-  color: var(--white);
+  color: #00a3e0;
   font-family: var(--ff-poppins);
   font-size: 2.4rem;
+  margin-left:0.5em;
 }
 .active .logo {
-  color: #1A1A1A;
+  color: #00a3e0;
 }
 
 .nav-toggle-btn { 
@@ -998,6 +1002,11 @@ input[type="radio"] {
 \*-----------------------------------*/
 h2.h2.section-title.adbvantage-title {
   text-align: left;
+}
+@media screen and (min-width: 768px) {
+  h2.h2.section-title.adbvantage-title {
+    text-align: center;
+  } 
 }
 
 .advantage-text {
