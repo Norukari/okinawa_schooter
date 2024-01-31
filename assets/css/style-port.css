@@ -456,6 +456,23 @@ color:#313636;
   /*border-radius: 0% 0% 0% 15%;*/
 }
 
+@media screen and (max-width: 480px) {
+  .hero{
+    background-image: url("../images/port-owner_480px.png");
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px){
+  .hero{
+    background-image: url("../images/port-owner_820px.png");
+  }
+}
+
+.header_logo {
+  display: flex;
+}
+
+
 .hero-banner {
   width: 150px;
   height: 172px;
