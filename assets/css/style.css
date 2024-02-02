@@ -359,6 +359,7 @@ color:#313636;
 .header.nav-active {
   height: 1200px;
   transition-duration: 0.35s;
+  background-color: #ffffff;
 }
 
 .header > .container {
@@ -411,6 +412,14 @@ color:#313636;
   padding-block: 3px;
   transition: var(--transition-1);
 }
+
+@media screen and (max-width: 820px) {
+  .navbar-link {
+  color:  #313636;
+  font-weight:600;
+  }
+}
+
 .active .navbar-link {
   color:  #313636;
 }
@@ -1065,7 +1074,7 @@ p.copyright {
 
 .footer-link { 
   transition: var(--transition-2); 
-  font-size:1.2em;
+  font-size:1em;
 }
 
 .footer-link:is(:hover, :focus) { color: var(--white); }

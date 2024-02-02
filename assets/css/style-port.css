@@ -124,7 +124,6 @@ button,
 textarea,
 ion-icon { 
   display: block; 
-  text-align:center;
 }
 
 img { height: auto; }
@@ -253,6 +252,7 @@ border: 1px solid #00a3e0;
 
  .h2.section-title-about {
   padding-bottom: 24px;
+  text-align: center;
 }
 
 }
@@ -364,6 +364,7 @@ color:#313636;
 .header.nav-active {
   height: 1200px;
   transition-duration: 0.35s;
+  background-color: #ffffff;
 }
 
 .header > .container {
@@ -411,7 +412,6 @@ color:#313636;
 }
 
 .navbar-link {
-  color: var(--white);
   font-family: var(--ff-barlow);
   padding-block: 3px;
   transition: var(--transition-1);
@@ -758,9 +758,9 @@ text-align: left;
 }
 
 .contact .section-title {
-  text-align: left;
   margin-block-end: 30px;
   color: #313636;
+  text-align:left;
 }
 
 .contact-form { margin-block-end: 50px; }
@@ -1096,6 +1096,7 @@ text-align: left;
 
 .card-title {
   margin-top: 0.5em;
+  text-align:center;
 }
 
 
@@ -1155,8 +1156,7 @@ p.copyright {
 
 .footer-link {
    transition: var(--transition-2); 
-   font-size: 1.2em;
-  
+   font-size: 1em;
 }
 
 .footer-link:is(:hover, :focus) { color: var(--white); }
