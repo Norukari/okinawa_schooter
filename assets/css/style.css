@@ -299,7 +299,7 @@ h2.h2.section-title {
 
 .h2 { 
   font-size: var(--fs-2);
-  text-shadow:5px 5px 3px rgba(0,0,0,0.2);
+  /*text-shadow:5px 5px 3px rgba(0,0,0,0.2);*/
 }
 
 .h3 { font-size: var(--fs-3); }
@@ -307,6 +307,8 @@ h2.h2.section-title {
 .section-title,
 .section-text {
 color:#313636;
+opacity:1;
+transform:none;
 }
 
 .section-title,.section-subtitle {
@@ -411,6 +413,10 @@ color:#313636;
   font-family: var(--ff-barlow);
   padding-block: 3px;
   transition: var(--transition-1);
+}
+
+.navbar-link,.company-link{
+  color: #313636;
 }
 
 @media screen and (max-width: 820px) {
@@ -578,7 +584,7 @@ margin-block-end: 30px;
 
 .section#portfolio {
     background: #ffffff;
-    margin-top:3em;
+    /*margin-top:3em;*/
 }
 
 .fadeDown{
@@ -590,6 +596,7 @@ opacity:0;
 
 .portfolio .section-title { 
   margin-block-end: 18px;
+  margin-top:1em;
   text-align: left;
   color: var(--space-cadet)
  }
@@ -992,7 +999,7 @@ text-align: left;
   border-radius: var(--radius-15);
   overflow: hidden;
   margin-block-end: 20px;
-  box-shadow: -5px -5px 5px 3px rgba(0, 163, 224, 0.5), 5px 5px 5px 3px rgba(0, 163, 224, 0.5);
+  box-shadow: -3px -3px 3px 2px rgba(0, 163, 224, 0.5), 3px 3px 3px 2px rgba(0, 163, 224, 0.5);
 }
 
 .blog-card .card-banner img { transition: var(--transition-2); }
@@ -1234,7 +1241,7 @@ text-align: center
     background-color: transparent;
     box-shadow: none;
     height: unset;
-    padding-block: 30px;
+    padding-block: 20px;
   }
 
   .header.active {
@@ -1533,3 +1540,33 @@ a.footer_name{
   font-weight: bold; /* Set font weight if desired */
 }
 
+/*-----------------------------------*\
+  #会社概要
+\*-----------------------------------*/
+.company-list {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+}
+.company-item .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1em;
+    border-top: 1px solid #ddd;
+}
+.company-title,
+.company-data,
+.company-content{
+  font-size: 1em;
+  font-family: var(--ff-barlow);
+  font-weight:400px;
+}
+
+.company-last-item .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:1em;
+  padding-bottom:1em;
+  border-bottom: 1px solid #ddd;
+}

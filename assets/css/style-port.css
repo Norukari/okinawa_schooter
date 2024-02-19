@@ -303,7 +303,7 @@ h2.h2.section-title {
 
 .h2 { 
   font-size: var(--fs-2);
-  text-shadow:5px 5px 3px rgba(0,0,0,0.2);
+  /*text-shadow:5px 5px 3px rgba(0,0,0,0.2);*/
 }
 
 .h3 { font-size: var(--fs-3); }
