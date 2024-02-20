@@ -205,7 +205,7 @@ body {
   transition: var(--transition-2);
 }
 .btn-primary {
-  color: #ffffff;
+  color: #313636;
 }
 
 .btn-primary.blue { 
@@ -437,7 +437,7 @@ transform:none;
 
 .navbar .btn {
   margin-block-start: 15px;
-  border: 1px solid #f7f7f7;
+  border: 1px solid #313636;
 }
 
 .active .btn-primary {
@@ -596,7 +596,7 @@ opacity:0;
 
 .portfolio .section-title { 
   margin-block-end: 18px;
-  margin-top:1em;
+  /*margin-top:1em;*/
   text-align: left;
   color: var(--space-cadet)
  }
@@ -1186,9 +1186,6 @@ p.copyright {
 text-align: center
 }
 
-
-
-
 /**
  * responsive for larger than 992px screen
  */
@@ -1538,6 +1535,32 @@ a.footer_name{
 .navbar-multiple-links a {
   text-decoration: none; /* Remove underline from links */
   font-weight: bold; /* Set font weight if desired */
+}
+/*-----------------------------------*\
+  #サービス
+\*-----------------------------------*/
+
+.introduction-kickboad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+.introduction-list {
+  grid-template-columns:2fr 3fr;
+  gap: 70px;
+  display:grid;
+}
+.feature-subtitle{
+  color:#00a3e0;
+  text-align:center;
+  font-family: var(--ff-barlow);
+  font-size: var(--fs-4);
+}
+.feature-title{
+  text-align:center;
+  margin-bottom:1.5em;
+  font-size: 2.5em;
 }
 
 /*-----------------------------------*\
