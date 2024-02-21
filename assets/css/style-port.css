@@ -359,6 +359,10 @@ color:#313636;
     color:#313636;
     font-weight: 600;
   }
+  .left{
+    float:left;
+    margin-right:1em
+  }
 }
 
 .header.nav-active {

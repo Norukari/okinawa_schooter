@@ -386,6 +386,10 @@ transform:none;
   border:none;
 }
 
+.top{
+  margin-top:3em;
+}
+
 .nav-toggle-btn .close-icon,
 .nav-toggle-btn.active .menu-icon { display: none; }
 
@@ -423,6 +427,10 @@ transform:none;
   .navbar-link {
   color:  #313636;
   font-weight:600;
+  }
+  .left{
+    float:left;
+    margin-right:1em
   }
 }
 
@@ -574,6 +582,10 @@ margin-block-end: 30px;
 .okinawa_image {
   width:100%;
   margin-top: 8em;
+}
+
+.intro-img.sa.fadeIn.visible {
+  margin: 0 3em 0 3em;
 }
 
 @media screen and (max-width: 768px) {
@@ -992,10 +1004,12 @@ text-align: left;
   gap: 40px;
 }
 
-.blog-card { font-family: var(--ff-barlow); }
+.blog-card { 
+  font-family: var(--ff-barlow); 
+  margin:1.5em;
+}
 
 .blog-card .card-banner {
-  background-color: var(--independence);
   border-radius: var(--radius-15);
   overflow: hidden;
   margin-block-end: 20px;
@@ -1071,7 +1085,7 @@ p.copyright {
 
 .footer-list {
   max-width: max-content;
-  margin-inline: auto;
+  /*margin-inline: auto;*/
 }
 
 .footer-list > li:not(:last-child) { 
@@ -1086,6 +1100,13 @@ p.copyright {
 
 .footer-link:is(:hover, :focus) { color: var(--white); }
 
+a.footer-link {
+  color: #ffffff;
+}
+
+.language{
+  color:#ffffff;
+}
 
 
 
@@ -1539,17 +1560,37 @@ a.footer_name{
 /*-----------------------------------*\
   #サービス
 \*-----------------------------------*/
+.introduction-list {
+  display: grid;
+  gap: 40px;
+}
 
-.introduction-kickboad {
+@media screen and (min-width: 768px){
+ .introduction-kickboad {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 80px;
-}
-.introduction-list {
+ }
+ .introduction-list {
   grid-template-columns:2fr 3fr;
-  gap: 70px;
+  gap: 40px;
   display:grid;
+ }
+ .introduction-list-left {
+  grid-template-columns:3fr 2fr;
+  gap: 40px;
+  display:grid;
+ }
+ .service-list {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+} 
+}
+
+.introduction-list {
+  display: grid;
+  gap: 40px;
 }
 .feature-subtitle{
   color:#00a3e0;
@@ -1560,8 +1601,9 @@ a.footer_name{
 .feature-title{
   text-align:center;
   margin-bottom:1.5em;
-  font-size: 2.5em;
+  font-size: 3rem;
 }
+
 
 /*-----------------------------------*\
   #会社概要
@@ -1570,6 +1612,7 @@ a.footer_name{
     grid-template-columns: repeat(1, 1fr);
     display: grid;
 }
+
 .company-item .wrapper {
     display: flex;
     justify-content: space-between;
